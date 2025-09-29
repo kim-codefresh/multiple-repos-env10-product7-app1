@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: multiple-repos-env10-product7-app1
+  labels:
+    app: multiple-repos-env10-product7-app1
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: multiple-repos-env10-product7-app1
+  template:
+    metadata:
+      labels:
+        app: multiple-repos-env10-product7-app1
+    spec:
+      containers:
+        - name: multiple-repos-env10-product7-app1
+          image: nginx:latest
+          ports:
+            - containerPort: 80
