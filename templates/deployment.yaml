@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
         - name: multiple-repos-env10-product7-app1
-          image: nginx:1.14.0
+          image: nginx:1.23.4
           ports:
             - containerPort: 80
