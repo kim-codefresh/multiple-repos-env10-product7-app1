@@ -2,8 +2,8 @@ apiVersion: v2
 name: multiple-repos-env10-product7-app1
 description: Helm chart for multiple-repos-env10-product7-app1
 type: application
-version: 0.1.173
-appVersion: 1.25.5
+version: 0.1.174
+appVersion: 1.24.0
 maintainers:
   - name: GitOps Team
 keywords:
